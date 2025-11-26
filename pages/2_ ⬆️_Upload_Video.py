@@ -12,7 +12,7 @@ from process_frame import ProcessFrame
 from thresholds import get_thresholds_beginner, get_thresholds_pro
 
 st.set_page_config(layout="wide")
-st.title('AI Fitness Trainer — Video Analysis (Pushups / Squats / Situps / Bicep Curls)')
+st.title('AI Fitness Trainer')
 
 mode = st.radio('Select Mode', ['Beginner', 'Pro'], horizontal=True)
 exercise = st.selectbox('Select Exercise', ['Push-ups', 'Squats', 'Sit-ups', 'Bicep Curls'])
